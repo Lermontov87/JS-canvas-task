@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="canvas" width="200" height="200"></canvas>
+    <script src="uy.js">
+        // var canvas = document.getElementById("canvas");
+
+        // var ctx = canvas.getContext("2d");
+
+        // var position = 0;
+        // var size = 0;
+
+        // setInterval(function () {
+        //     ctx.clearRect(0, 0, 300, 300);
+        //     ctx.fillRect(position, position, 0, size);
+        //     position++;
+        //     size++;
+
+        //     if (size > 200) {
+        // size = 0;
+        //     }
+        //     if (position > 200) {
+        //         position = 0;
+        //     }
+        // }, 30);
+
+
+        // шарик в квадрате
+
+        // var canvas = document.getElementById("canvas");
+
+        // var ctx = canvas.getContext("2d");
+
+
+        // var Ball = function () {
+        //     this.x = 50;
+        //     this.y = 100;
+        //     this.xSpeed = -2;
+        //     this.ySpeed = 3;
+        // };
+
+
+
+        // var circle = function (x, y, radius, fillCircle) {
+        //     ctx.beginPath();
+        //     ctx.arc(x, y, radius, 0, Math.PI * 2, false);
+        //     if (fillCircle) {
+        //         ctx.fill();
+        //     }
+        // };
+
+        // Ball.prototype.draw = function () {
+        //     circle(this.x, this.y, 3, true);
+
+        // };
+
+        // Ball.prototype.move = function () {
+        //     this.x += this.xSpeed;
+        //     this.y += this.ySpeed;
+        // };
+
+        // //collision
+        // Ball.prototype.checkCollision = function () {
+        //     if (this.x < 0 || this.x > 200) {
+        //         this.xSpeed = -this.xSpeed;
+        //     }
+        //     if (this.y < 0 || this.y > 200) {
+        //         this.ySpeed = -this.ySpeed;
+        //     }
+        // };
+
+
+        // //Анимация мяча
+
+        // var ball = new Ball();
+        // setInterval(function () {
+
+
+        //     ctx.clearRect(0, 0, 200, 200);
+        //     ball.draw();
+        //     ball.move();
+        //     ball.checkCollision();
+        //     ctx.strokeRect(0, 0, 200, 200);
+
+        // }, 15);
+
+        //  var ball2 = new Ball();
+        // setInterval(function () {
+
+
+        //     // ctx.clearRect(0, 0, 200, 200);
+        //     ball2.draw();
+        //     ball2.move();
+        //     ball2.checkCollision();
+        //     ctx.strokeRect(0, 0, 200, 200);
+
+        // }, 20);
+
+        // ПЧЕЛА
+    //     var canvas = document.getElementById("canvas");
+
+    //     var ctx = canvas.getContext("2d");
+
+
+    //     var circle = function (x, y, radius, fillCircle) {
+    //         ctx.beginPath();
+
+    //         ctx.arc(x, y, radius, 0, Math.PI *2, false);
+
+    //         if(fillCircle) {
+    //             ctx.fill();
+    //         } else {
+    //             ctx.stroke();
+    //         }
+    //     };
+
+    //    var drawBee = function (x, y) {
+    //        ctx.strokeStyle = "Black";
+    //        ctx.fillStyle = "Gold";
+
+    //        circle(x, y, 8, true);
+    //        circle(x, y, 8, false);
+    //        circle(x - 5, y - 11, 5, false);
+    //         circle(x + 5, y - 11, 5, false);
+    //         circle(x - 2, y - 1, 2, false);
+    //         circle(x + 2, y - 1, 2, false);
+
+
+    //    }; 
+
+
+    //     var update = function (coordinate) {
+    //         var offset = Math.random() * 4 - 2; 
+    //         coordinate += offset;
+
+    //         if (coordinate > 200) {
+    //             coordinate = 200;
+    //         }
+    //         if (coordinate < 0) {
+    //             coordinate = 0;
+    //         }
+
+    //         return coordinate;
+    //     };
+
+
+
+    //     var x = 100;
+    //     var y = 100;
+
+    //     setInterval(function() {
+    //         ctx.clearRect(0, 0, 200, 200);
+
+    //         drawBee(x, y);
+    //         x = update(x);
+    //         y = update(y);
+
+    //         ctx.strokeRect(0, 0, 200, 200);
+    //     }, 30);
+
+
+
+
+    </script>
+</body>
+
+</html>
